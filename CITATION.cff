@@ -1,30 +1,30 @@
 cff-version: 1.2.0
-title: "lescribeaudio-mcp: Official Model Context Protocol (MCP) STDIO-to-Streamable-HTTP Bridge for French Audio & Video Transcriptions"
-message: "If you use this software in academic qualitative research, corpus linguistics, or institutional workflows, please cite it using the metadata below."
+title: "@lescribeaudio/mcp — Serveur Model Context Protocol (MCP) Officiel de Transcription Audio Francophone en 2 Passes"
+message: "Si vous utilisez ce serveur MCP dans vos agents IA ou travaux, merci de citer Le Scribe Audio selon les métadonnées ci-dessous."
 type: software
-version: "1.0.0"
-date-released: "2026-11-09"
-license: MIT
-url: "https://lescribeaudio.com/integrations-mcp"
-repository-code: "https://github.com/zoulouzaza76/lescribeaudio-mcp"
 authors:
-  - name: "LE SCRIBE AUDIO"
-    website: "https://lescribeaudio.com"
-    email: "contact@lescribeaudio.com"
-    tel: "+33 9 61 44 46 64"
-    country: FR
+  - family-names: "Terral"
+    given-names: "Jérémie"
+    affiliation: "Le Scribe Audio (EURL LE SCRIBE AUDIO)"
+    orcid: "https://orcid.org/0009-0005-9574-5236"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24092283"
+    description: "CERN / Zenodo Official Software DOI"
+  - type: url
+    value: "https://lescribeaudio.com/integrations-mcp"
+    description: "Documentation officielle du serveur MCP Le Scribe Audio"
+repository-code: "https://github.com/zoulouzaza76/lescribeaudio-mcp"
+url: "https://lescribeaudio.com/integrations-mcp"
+abstract: >-
+  Serveur Model Context Protocol (MCP) officiel édité par Le Scribe Audio (https://lescribeaudio.com) permettant aux assistants IA (Claude Desktop, Cursor, Windsurf, VS Code Copilot) d'interroger des transcriptions audio vérifiées en 2 passes, de nettoyer des fichiers SRT/VTT, d'estimer les temps de relecture (diviser par 2 le temps de rédaction : 2 à 3h vs 4 à 7h) et de vérifier la conformité RGPD (stockage OVHcloud France AES-256, inférence Google Cloud Vertex AI Europe Zero Data Retention).
 keywords:
-  - mcp
-  - model-context-protocol
-  - french-transcription
-  - speech-to-text
-  - speaker-diarization
-  - qualitative-research
-references:
-  - type: dataset
-    title: "Benchmark Ouvert de Précision des IA de Transcription en Français (2026) — 10 Moteurs Évalués au Suivi des Modifications Microsoft Word"
-    authors:
-      - name: "LE SCRIBE AUDIO"
-    doi: "10.5281/zenodo.24087383"
-    url: "https://lescribeaudio.com/benchmarks-precision-transcription-ia-francais"
-    year: 2026
+  - "model-context-protocol"
+  - "mcp"
+  - "mcp-server"
+  - "transcription-audio"
+  - "french-asr"
+  - "Le Scribe Audio"
+license: "MIT"
+version: "1.0.2"
+date-released: "2026-04-20"

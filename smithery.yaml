@@ -1,0 +1,23 @@
+# Smithery.ai MCP Server Configuration — https://lescribeaudio.com/integrations-mcp
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        title: "Clé API Le Scribe Audio (optionnelle pour les outils locaux)"
+        description: "Jeton d'accès personnel généré depuis https://lescribeaudio.com/integrations-mcp"
+      apiUrl:
+        type: string
+        default: "https://lescribeaudio.com/api/mcp"
+        description: "Endpoint Streamable HTTP officiel Le Scribe Audio"
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['dist/index.js'],
+      env: {
+        LESCRIBEAUDIO_API_KEY: config.apiKey || '',
+        LESCRIBEAUDIO_MCP_URL: config.apiUrl || 'https://lescribeaudio.com/api/mcp'
+      }
+    })

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "zoulouzaza76"
+  ],
+  "homepage": "https://lescribeaudio.com/integrations-mcp",
+  "documentation": "https://lescribeaudio.readthedocs.io/en/latest/"
+}
