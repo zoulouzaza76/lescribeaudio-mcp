@@ -1,0 +1,51 @@
+{
+  "title": "lescribeaudio-mcp — Connecteur Open-Source Model Context Protocol (STDIO ⇄ Streamable HTTP) pour la Transcription Audio & Vidéo en Français",
+  "description": "Pont open-source léger sans dépendance externe (Node.js >= 18, licence MIT) reliant les clients Model Context Protocol (Claude Desktop, ChatGPT, Cursor, Windsurf, Claude Code) au serveur MCP Streamable HTTP officiel Le Scribe Audio (https://lescribeaudio.com/api/mcp). Expose 6 outils authentifiés par clé personnelle à durée bornée (30 à 180 jours) : list_transcriptions, search_transcriptions, get_transcription_text, get_transcription_summary (synthèse exécutive suivie d'un développement chrono-thématique), rename_speaker_label (codage et renommage global de la diarisation) et get_export_urls (Word .docx 100 % modifiable, PDF, SRT, VTT, TXT, IRaMuTeQ). Stockage des fichiers en France chez OVHcloud (AES-256) et inférence via Google Cloud Vertex AI (en région Europe, Zero Data Retention).",
+  "upload_type": "software",
+  "publication_date": "2026-11-09",
+  "version": "1.0.0",
+  "language": "fra",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "LE SCRIBE AUDIO",
+      "affiliation": "LE SCRIBE AUDIO (France — RCS Rennes 890 049 927)"
+    }
+  ],
+  "keywords": [
+    "Model Context Protocol",
+    "MCP",
+    "speech-to-text",
+    "transcription audio français",
+    "diarisation",
+    "JSON-RPC 2.0",
+    "Streamable HTTP",
+    "IRaMuTeQ",
+    "sciences humaines et sociales",
+    "CSE"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://lescribeaudio.com/integrations-mcp",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://lescribeaudio.com/securite-rgpd",
+      "relation": "references",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://lescribeaudio.com/benchmarks-precision-transcription-ia-francais",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.5281/zenodo.24087383",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ]
+}

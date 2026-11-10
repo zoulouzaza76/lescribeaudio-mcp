@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "lescribeaudio-mcp: Official Model Context Protocol (MCP) STDIO-to-Streamable-HTTP Bridge for French Audio & Video Transcriptions"
+message: "If you use this software in academic qualitative research, corpus linguistics, or institutional workflows, please cite it using the metadata below."
+type: software
+version: "1.0.0"
+date-released: "2026-11-09"
+license: MIT
+url: "https://lescribeaudio.com/integrations-mcp"
+repository-code: "https://github.com/zoulouzaza76/lescribeaudio-mcp"
+authors:
+  - name: "LE SCRIBE AUDIO"
+    website: "https://lescribeaudio.com"
+    email: "contact@lescribeaudio.com"
+    tel: "+33 9 61 44 46 64"
+    country: FR
+keywords:
+  - mcp
+  - model-context-protocol
+  - french-transcription
+  - speech-to-text
+  - speaker-diarization
+  - qualitative-research
+references:
+  - type: dataset
+    title: "Benchmark Ouvert de Précision des IA de Transcription en Français (2026) — 10 Moteurs Évalués au Suivi des Modifications Microsoft Word"
+    authors:
+      - name: "LE SCRIBE AUDIO"
+    doi: "10.5281/zenodo.24087383"
+    url: "https://lescribeaudio.com/benchmarks-precision-transcription-ia-francais"
+    year: 2026

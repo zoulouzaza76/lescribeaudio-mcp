@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.zoulouzaza76/lescribeaudio-mcp",
+  "title": "Le Scribe Audio — Transcription Audio & Vidéo (FR)",
+  "description": "Official Le Scribe Audio MCP server: search, read, summarize & code French audio transcripts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://lescribeaudio.com/integrations-mcp",
+  "repository": {
+    "url": "https://github.com/zoulouzaza76/lescribeaudio-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lescribeaudio.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer lsa_mcp_... Personal Access Token from https://lescribeaudio.com/integrations-mcp",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

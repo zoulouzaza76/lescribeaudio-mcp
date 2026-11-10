@@ -1,0 +1,48 @@
+{
+  "name": "lescribeaudio-mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) STDIO-to-Streamable-HTTP bridge for Le Scribe Audio — query, search, summarize, and rename speaker diarization labels in your French audio/video transcriptions from Claude Desktop, ChatGPT, Cursor, Windsurf, and Claude Code.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "lescribeaudio-mcp": "./bin/cli.mjs"
+  },
+  "main": "./src/bridge.mjs",
+  "exports": {
+    ".": "./src/bridge.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "server.json",
+    "README.md",
+    "LICENSE",
+    "CITATION.cff"
+  ],
+  "scripts": {
+    "start": "node ./bin/cli.mjs",
+    "info": "node ./bin/cli.mjs --info",
+    "check": "node ./bin/cli.mjs --check",
+    "test": "node --test test/test.mjs"
+  },
+  "homepage": "https://lescribeaudio.com/integrations-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoulouzaza76/lescribeaudio-mcp.git"
+  },
+  "bugs": {
+    "url": "https://lescribeaudio.com/integrations-mcp"
+  },
+  "author": "LE SCRIBE AUDIO <contact@lescribeaudio.com> (https://lescribeaudio.com)",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "transcription",
+    "french",
+    "speech-to-text",
+    "lescribeaudio"
+  ]
+}
